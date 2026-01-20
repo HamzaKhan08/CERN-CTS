@@ -1,6 +1,6 @@
 # 🧪 CERN Control Tools Suite (CTS)
 ### Login Page --- 
-![CERN CTS Login Page](screenshots/Screenshot 2026-01-21 at 1.59.58 AM.png)
+![CERN CTS Login Page](Screenshot 2026-01-21 at 1.59.58 AM.png)
 
 ### 
 
