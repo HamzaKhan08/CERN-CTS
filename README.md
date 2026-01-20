@@ -1,72 +1,74 @@
-🧪 CERN Control Tools Suite (CTS)
+# 🧪 CERN Control Tools Suite (CTS)
 
-CERN Control Tools Suite (CTS) is a CERN-inspired, enterprise-grade full-stack web application designed to simulate how large-scale scientific experiments and power converter systems are monitored, managed, and analyzed in real operational environments.
+![CERN CTS Login Page]()
 
-This project focuses on real-time data visualization, system reliability, structured workflows, and role-based access control, reflecting the principles used in research-driven organizations like CERN.
+### CERN Control Tools Suite (CTS) is a CERN-inspired, enterprise-grade full-stack web application designed to simulate how large-scale scientific experiments and power converter systems are monitored, managed, and analyzed in real operational environments.
 
-🚀 Overview
+### This project focuses on real-time data visualization, system reliability, structured workflows, and role-based access control, reflecting the principles used in research-driven organizations like CERN.
 
-CTS provides a unified control platform consisting of two core modules:
+# 🚀 Overview
 
-🔬 Experiment Monitoring Dashboard
+### CTS provides a unified control platform consisting of two core modules:
 
-A real-time monitoring system that visualizes experiment sensor data such as temperature, voltage, beam intensity, and pressure. It supports live updates, historical analysis, threshold-based alerts, and scientific data visualization.
+### 🔬 Experiment Monitoring Dashboard
 
-⚡ Power Converter Health Tracking System
+### A real-time monitoring system that visualizes experiment sensor data such as temperature, voltage, beam intensity, and pressure. It supports live updates, historical analysis, threshold-based alerts, and scientific data visualization.
 
-A structured system to track power converter status, faults, severity levels, maintenance history, approval workflows, and audit logs to ensure operational reliability and traceability.
+### ⚡ Power Converter Health Tracking System
 
-✨ Key Features
+### A structured system to track power converter status, faults, severity levels, maintenance history, approval workflows, and audit logs to ensure operational reliability and traceability.
 
-📊 Real-time sensor data streaming using WebSockets
+# ✨ Key Features
 
-📈 Interactive charts and historical trend analysis
+### 📊 Real-time sensor data streaming using WebSockets
 
-🚨 Threshold-based alerts and notifications
+### 📈 Interactive charts and historical trend analysis
 
-⚡ Power converter fault and maintenance tracking
+### 🚨 Threshold-based alerts and notifications
 
-🔐 Role-based access control (Admin, Scientist, Engineer, Operator, Supervisor)
+### ⚡ Power converter fault and maintenance tracking
 
-🧾 Approval workflows with full audit trails
+### 🔐 Role-based access control (Admin, Scientist, Engineer, Operator, Supervisor)
 
-🛠 Administrative control panel for user and system management
+### 🧾 Approval workflows with full audit trails
 
-🧩 Modular, scalable, and clean architecture
+### 🛠 Administrative control panel for user and system management
 
-🐳 Fully containerized using Docker
+### 🧩 Modular, scalable, and clean architecture
 
-🧠 Architecture
+### 🐳 Fully containerized using Docker
 
-CTS follows a modern full-stack architecture:
+# 🧠 Architecture
 
-Frontend: Vue 3 (Composition API), Pinia, Vite, ECharts
+### CTS follows a modern full-stack architecture:
 
-Backend: FastAPI (async), Pydantic, SQLAlchemy
+### Frontend: Vue 3 (Composition API), Pinia, Vite, ECharts
 
-Database: PostgreSQL
+### Backend: FastAPI (async), Pydantic, SQLAlchemy
 
-Realtime: WebSockets
+### Database: PostgreSQL
 
-DevOps: Docker & Docker Compose
+### Realtime: WebSockets
 
-The system is designed for scalability, maintainability, and reliability, with clear separation of concerns between frontend, backend, and data layers.
+### DevOps: Docker & Docker Compose
 
-🎯 Purpose & Motivation
+### The system is designed for scalability, maintainability, and reliability, with clear separation of concerns between frontend, backend, and data layers.
 
-CTS is not a generic dashboard project. It was built to understand and demonstrate how operational tools are designed for scientific infrastructures, where correctness, clarity, and reliability are critical.
-The project aligns with CERN’s mission of supporting scientific discovery through robust and well-engineered software systems.
+# 🎯 Purpose & Motivation
 
-📌 Future Enhancements
+### CTS is not a generic dashboard project. It was built to understand and demonstrate how operational tools are designed for scientific infrastructures, where correctness, clarity, and reliability are critical.
+### The project aligns with CERN’s mission of supporting scientific discovery through robust and well-engineered software systems.
 
-Integration with real experimental or IoT data sources
+# 📌 Future Enhancements
 
-AI-based anomaly detection and predictive maintenance
+### Integration with real experimental or IoT data sources
 
-Advanced analytics and reporting
+### AI-based anomaly detection and predictive maintenance
 
-Kubernetes-based deployment
+### Advanced analytics and reporting
 
-📄 License
+### Kubernetes-based deployment
 
-This project is for educational and demonstration purposes, inspired by CERN-style operational systems.
+# 📄 License
+
+### This project is for educational and demonstration purposes, inspired by CERN-style operational systems.
