@@ -12,7 +12,7 @@
 <img src="screenshots/Screenshot 2026-01-21 at 2.00.42 AM.png" width="800/>
 </p>
 
-### A built-in chat support system for members who are online on platform,
+### A built-in chat support system for members who are online on platform ---
 <p align="center">
 <img src="screenshots/Screenshot 2026-01-21 at 2.03.11 AM.png"/>
 </p>
@@ -20,11 +20,6 @@
 ### A built-in chatbot powered by Gemini that solve query ---
 <p align="center">
 <img src="screenshots/Screenshot 2026-01-21 at 2.03.46 AM.png"/>
-</p>
-
-#### A detail view option for Power Converter Systems ---
-<p align="center">
-<img src="screenshots/Screenshot 2026-01-21 at 2.08.02 AM.png"/>
 </p>
 
 ### CERN Control Tools Suite (CTS) is a CERN-inspired, enterprise-grade full-stack web application designed to simulate how large-scale scientific experiments and power converter systems are monitored, managed, and analyzed in real operational environments.
@@ -48,6 +43,11 @@
 <p align="center">
 <img src="screenshots/Screenshot 2026-01-21 at 2.01.27 AM.png"/>
 </p>
+#### A detail view option for Power Converter Systems ---
+<p align="center">
+<img src="screenshots/Screenshot 2026-01-21 at 2.08.02 AM.png"/>
+</p>
+
 
 ### This is 3D Demonstration of LHC collison simulator ---
 <p align="center">
