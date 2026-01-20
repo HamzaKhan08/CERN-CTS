@@ -1,13 +1,30 @@
 # 🧪 CERN Control Tools Suite (CTS)
+### This project is intentionally documented in detail to reflect the importance of clarity, traceability, and knowledge sharing in scientific and research-driven environments such as CERN.
+
 ### Login Page --- 
 <p align="center">
   <img src="screenshots/Screenshot 2026-01-21 at 1.59.58 AM.png" width="800"/>
 </p>
 
 ### Login as an ADMIN ( also able to login based on role ) - must get approval from admin first then login 
-#### here Hamzakhan@cern.ch is default admin.. 
+here Hamzakhan@cern.ch is default admin.. 
 <p align="center">
 <img src="screenshots/Screenshot 2026-01-21 at 2.00.42 AM.png" width="800/>
+</p>
+
+### A built-in chat support system for members who are online on platform,
+<p align="center">
+<img src="screenshots/Screenshot 2026-01-21 at 2.03.11 AM.png"/>
+</p>
+
+### A built-in chatbot powered by Gemini that solve query ---
+<p align="center">
+<img src="screenshots/Screenshot 2026-01-21 at 2.03.46 AM.png"/>
+</p>
+
+#### A detail view option for Power Converter Systems ---
+<p align="center">
+<img src="screenshots/Screenshot 2026-01-21 at 2.08.02 AM.png"/>
 </p>
 
 ### CERN Control Tools Suite (CTS) is a CERN-inspired, enterprise-grade full-stack web application designed to simulate how large-scale scientific experiments and power converter systems are monitored, managed, and analyzed in real operational environments.
@@ -19,10 +36,23 @@
 ### CTS provides a unified control platform consisting of two core modules:
 
 ### 🔬 Experiment Monitoring Dashboard
+#### Main dashboard where Experiment Monitor set by default --
+<p align="center">
+<img src="screenshots/Screenshot 2026-01-21 at 2.01.02 AM.png"/>
+</p>
 
 ### A real-time monitoring system that visualizes experiment sensor data such as temperature, voltage, beam intensity, and pressure. It supports live updates, historical analysis, threshold-based alerts, and scientific data visualization.
 
 ### ⚡ Power Converter Health Tracking System
+#### This is Power Converters Dashboard ( all values are for demonstration purpose, not real ) --
+<p align="center">
+<img src="screenshots/Screenshot 2026-01-21 at 2.01.27 AM.png"/>
+</p>
+
+### This is 3D Demonstration of LHC collison simulator ---
+<p align="center">
+<img src="screenshots/Screenshot 2026-01-21 at 2.01.45 AM.png"/>
+</p>
 
 ### A structured system to track power converter status, faults, severity levels, maintenance history, approval workflows, and audit logs to ensure operational reliability and traceability.
 
@@ -33,6 +63,10 @@
 ### 📈 Interactive charts and historical trend analysis
 
 ### 🚨 Threshold-based alerts and notifications
+### Real time notification panel for easily know issue and alerts ---
+<p align="center">
+<img src="screenshots/Screenshot 2026-01-21 at 2.04.20 AM.png"/>
+</p>
 
 ### ⚡ Power converter fault and maintenance tracking
 
@@ -41,10 +75,18 @@
 ### 🧾 Approval workflows with full audit trails
 
 ### 🛠 Administrative control panel for user and system management
+#### This is System logs ( only visible to admin ) ---
+<p align="center">
+<img src="screenshots/Screenshot 2026-01-21 at 2.02.14 AM.png"/>
+</p>
+
+### This is Access Control only visible to admin ---
+<p align="center">
+<img src="screenshots/Screenshot 2026-01-21 at 2.02.35 AM.png"/>
+</p>
+
 
 ### 🧩 Modular, scalable, and clean architecture
-
-### 🐳 Fully containerized using Docker
 
 # 🧠 Architecture
 
@@ -57,8 +99,6 @@
 ### Database: PostgreSQL
 
 ### Realtime: WebSockets
-
-### DevOps: Docker & Docker Compose
 
 ### The system is designed for scalability, maintainability, and reliability, with clear separation of concerns between frontend, backend, and data layers.
 
