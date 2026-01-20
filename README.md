@@ -1,20 +1,72 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+🧪 CERN Control Tools Suite (CTS)
 
-# Run and deploy your AI Studio app
+CERN Control Tools Suite (CTS) is a CERN-inspired, enterprise-grade full-stack web application designed to simulate how large-scale scientific experiments and power converter systems are monitored, managed, and analyzed in real operational environments.
 
-This contains everything you need to run your app locally.
+This project focuses on real-time data visualization, system reliability, structured workflows, and role-based access control, reflecting the principles used in research-driven organizations like CERN.
 
-View your app in AI Studio: https://ai.studio/apps/temp/1
+🚀 Overview
 
-## Run Locally
+CTS provides a unified control platform consisting of two core modules:
 
-**Prerequisites:**  Node.js
+🔬 Experiment Monitoring Dashboard
 
+A real-time monitoring system that visualizes experiment sensor data such as temperature, voltage, beam intensity, and pressure. It supports live updates, historical analysis, threshold-based alerts, and scientific data visualization.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+⚡ Power Converter Health Tracking System
+
+A structured system to track power converter status, faults, severity levels, maintenance history, approval workflows, and audit logs to ensure operational reliability and traceability.
+
+✨ Key Features
+
+📊 Real-time sensor data streaming using WebSockets
+
+📈 Interactive charts and historical trend analysis
+
+🚨 Threshold-based alerts and notifications
+
+⚡ Power converter fault and maintenance tracking
+
+🔐 Role-based access control (Admin, Scientist, Engineer, Operator, Supervisor)
+
+🧾 Approval workflows with full audit trails
+
+🛠 Administrative control panel for user and system management
+
+🧩 Modular, scalable, and clean architecture
+
+🐳 Fully containerized using Docker
+
+🧠 Architecture
+
+CTS follows a modern full-stack architecture:
+
+Frontend: Vue 3 (Composition API), Pinia, Vite, ECharts
+
+Backend: FastAPI (async), Pydantic, SQLAlchemy
+
+Database: PostgreSQL
+
+Realtime: WebSockets
+
+DevOps: Docker & Docker Compose
+
+The system is designed for scalability, maintainability, and reliability, with clear separation of concerns between frontend, backend, and data layers.
+
+🎯 Purpose & Motivation
+
+CTS is not a generic dashboard project. It was built to understand and demonstrate how operational tools are designed for scientific infrastructures, where correctness, clarity, and reliability are critical.
+The project aligns with CERN’s mission of supporting scientific discovery through robust and well-engineered software systems.
+
+📌 Future Enhancements
+
+Integration with real experimental or IoT data sources
+
+AI-based anomaly detection and predictive maintenance
+
+Advanced analytics and reporting
+
+Kubernetes-based deployment
+
+📄 License
+
+This project is for educational and demonstration purposes, inspired by CERN-style operational systems.
