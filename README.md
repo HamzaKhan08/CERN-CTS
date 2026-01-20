@@ -4,7 +4,11 @@
   <img src="screenshots/Screenshot 2026-01-21 at 1.59.58 AM.png" width="800"/>
 </p>
 
-### 
+### Login as an ADMIN ( also able to login based on role ) - must get approval from admin first then login 
+#### here Hamzakhan@cern.ch is default admin.. 
+<p align="center">
+<img src="screenshots/Screenshot 2026-01-21 at 2.00.42 AM.png" width="800/>
+</p>
 
 ### CERN Control Tools Suite (CTS) is a CERN-inspired, enterprise-grade full-stack web application designed to simulate how large-scale scientific experiments and power converter systems are monitored, managed, and analyzed in real operational environments.
 
