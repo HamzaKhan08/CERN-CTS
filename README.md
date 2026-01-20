@@ -1,31 +1,72 @@
-##CERN Control Tools Suite (CTS)
+🧪 CERN Control Tools Suite (CTS)
 
-CERN Control Tools Suite (CTS) is a CERN-inspired full-stack web application designed to simulate how scientific experiments and power converter systems can be monitored, analyzed, and managed in operational research environments. The project focuses on real-time data visualization, system reliability, role-based access, and structured operational workflows.
+CERN Control Tools Suite (CTS) is a CERN-inspired, enterprise-grade full-stack web application designed to simulate how large-scale scientific experiments and power converter systems are monitored, managed, and analyzed in real operational environments.
 
-CTS consists of two core modules: an Experiment Monitoring Dashboard for real-time sensor visualization, alerts, and historical analysis, and a Power Converter Health Tracking System for fault management, maintenance history, approval workflows, and audit trails. The application is built with Vue 3 on the frontend, FastAPI on the backend, PostgreSQL for structured data storage, WebSockets for real-time communication, and Docker for environment consistency.
+This project focuses on real-time data visualization, system reliability, structured workflows, and role-based access control, reflecting the principles used in research-driven organizations like CERN.
 
-The project emphasizes clean architecture, modular design, security, scalability, and usability — reflecting the principles required in scientific and research-driven software systems. CTS was created as a learning and demonstration platform to understand CERN-style operational tools and to align full-stack development skills with real scientific infrastructure needs.
+🚀 Overview
 
-Key Features
+CTS provides a unified control platform consisting of two core modules:
 
-• Real-time experiment sensor monitoring
-• Interactive scientific data visualization
-• Power converter fault and maintenance tracking
-• Approval workflows with audit logs
-• Role-based access control
-• Admin management panel
-• WebSocket real-time updates
-• Clean modular architecture
-• Dockerized deployment
+🔬 Experiment Monitoring Dashboard
 
-Tech Stack
+A real-time monitoring system that visualizes experiment sensor data such as temperature, voltage, beam intensity, and pressure. It supports live updates, historical analysis, threshold-based alerts, and scientific data visualization.
 
-Frontend: Vue 3, Pinia, Vite, ECharts
-Backend: FastAPI, Pydantic, SQLAlchemy
+⚡ Power Converter Health Tracking System
+
+A structured system to track power converter status, faults, severity levels, maintenance history, approval workflows, and audit logs to ensure operational reliability and traceability.
+
+✨ Key Features
+
+📊 Real-time sensor data streaming using WebSockets
+
+📈 Interactive charts and historical trend analysis
+
+🚨 Threshold-based alerts and notifications
+
+⚡ Power converter fault and maintenance tracking
+
+🔐 Role-based access control (Admin, Scientist, Engineer, Operator, Supervisor)
+
+🧾 Approval workflows with full audit trails
+
+🛠 Administrative control panel for user and system management
+
+🧩 Modular, scalable, and clean architecture
+
+🐳 Fully containerized using Docker
+
+🧠 Architecture
+
+CTS follows a modern full-stack architecture:
+
+Frontend: Vue 3 (Composition API), Pinia, Vite, ECharts
+
+Backend: FastAPI (async), Pydantic, SQLAlchemy
+
 Database: PostgreSQL
+
 Realtime: WebSockets
-DevOps: Docker, Docker Compose
 
-Project Vision
+DevOps: Docker & Docker Compose
 
-CTS is not a generic dashboard project — it is an operational system prototype inspired by CERN’s mission to support scientific discovery through reliable and scalable software systems.
+The system is designed for scalability, maintainability, and reliability, with clear separation of concerns between frontend, backend, and data layers.
+
+🎯 Purpose & Motivation
+
+CTS is not a generic dashboard project. It was built to understand and demonstrate how operational tools are designed for scientific infrastructures, where correctness, clarity, and reliability are critical.
+The project aligns with CERN’s mission of supporting scientific discovery through robust and well-engineered software systems.
+
+📌 Future Enhancements
+
+Integration with real experimental or IoT data sources
+
+AI-based anomaly detection and predictive maintenance
+
+Advanced analytics and reporting
+
+Kubernetes-based deployment
+
+📄 License
+
+This project is for educational and demonstration purposes, inspired by CERN-style operational systems.
