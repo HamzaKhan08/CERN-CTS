@@ -32,6 +32,7 @@
 
 ### 🔬 Experiment Monitoring Dashboard
 #### Main dashboard where Experiment Monitor set by default -- ( gemini analysis or custom AI model integration )
+#### i use gemini as it is fast and efficent..
 <p align="center">
 <img src="screenshots/Screenshot 2026-01-21 at 2.01.02 AM.png" width="800"/>
 </p>
